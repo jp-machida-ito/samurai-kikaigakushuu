@@ -27,3 +27,4 @@ a = np.array([[1,2,3]])#多次元
 b = np.array([[4,5,6]])#多次元
 np.concatenate((a,b),axis=0) #array([[1, 2, 3],
                                     #[4, 5, 6]])
+print(np.concatenate((a,b),axis=0) )
